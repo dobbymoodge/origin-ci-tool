@@ -2,7 +2,7 @@
 from setuptools import find_packages, setup
 
 base_requires = [
-    'Click',
+    'Click>=6.0, <7.0',
     'ansible @ git+https://github.com/stevekuznetsov/ansible.git@skuznets/oct-release#egg=ansible-3.0.0',
     'backports.shutil_get_terminal_size',
     'semver',
