@@ -19,7 +19,7 @@ verify:
 
 # Run the unit tests.
 ifdef TARGET
-    TARGET = --verbose $(TARGET)
+    TARGET := --verbose $(TARGET)
 else
     TARGET ?= discover --verbose
 endif
